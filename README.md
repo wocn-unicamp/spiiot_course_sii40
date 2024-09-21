@@ -1,6 +1,6 @@
 # Mini-Course: Standards and Protocols for Industry 4.0​
 
-Mini-course link: https://sii40.ing.unibo.it/
+Course: <a href="https://sii40.ing.unibo.it/"> Services and Innovation for Industry 4.0 https://sii40.ing.unibo.it/ </a>
 
 This repository contains two Python scripts:
 
