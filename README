@@ -1,5 +1,7 @@
 # Mini-Course: Standards and Protocols for Industry 4.0​
 
+Mini-course link: https://sii40.ing.unibo.it/
+
 This repository contains two Python scripts:
 
 - **Server Script**: Simulates an OPC-UA server that provides two variables, temperature and pressure, with random values.
