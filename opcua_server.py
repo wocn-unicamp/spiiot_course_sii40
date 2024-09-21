@@ -7,7 +7,7 @@ from random import randint
 # Create an instance of the OPC-UA server
 server = Server()
 
-# Define the endpoint URL for the server (listening on all interfaces on port 4840)
+# Define the endpoint URL for the server (listening on all interfaces on port 4840 which is the default port for protocol)
 url = "opc.tcp://0.0.0.0:4840"
 
 # Set the server's endpoint to the specified URL
@@ -25,13 +25,13 @@ node = server.get_objects_node()
 # Add an object named "Parameters" to the Objects node under the specified namespace
 param = node.add_object(add_space, "Parameters")
 
-# Add a variable "Temperatura" to the "Parameters" object, initializing it to 0
+# Add a variable "Temperature" to the "Parameters" object, initializing it to 0
 temp = param.add_variable(add_space, "Temperatura", 0)
 
 # Add a variable "Pressure" to the "Parameters" object, initializing it to 0
 press = param.add_variable(add_space, "Pressure", 0)
 
-# Set the "Temperatura" variable to be writable
+# Set the "Temperature" variable to be writable
 temp.set_writable()
 
 # Set the "Pressure" variable to be writable
